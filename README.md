@@ -1,20 +1,12 @@
-➕ React Two-Number Addition App
-A simple web app built using React.js, JavaScript, and Tailwind CSS that takes two user inputs and displays their sum. It uses the useState hook to manage and update state in real-time as the user types.
+# React + Vite
 
-✨ Features
-🔢 Live Addition – Automatically adds two input numbers as they’re entered
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-⚛️ React useState Hook – Demonstrates state handling in functional components
+Currently, two official plugins are available:
 
-⚡ Instant Updates – No refresh needed; results appear immediately
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-💻 Responsive Design – Mobile-friendly UI built with Tailwind CSS
+## Expanding the ESLint configuration
 
-🎨 Clean UI – Minimalistic and modern design
-
-🛠 Tech Stack
-React.js – Frontend framework for building interactive UI
-
-JavaScript (ES6+) – Logic and interactivity
-
-Tailwind CSS – Fast, utility-first stylin
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
